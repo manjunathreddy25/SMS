@@ -1,0 +1,52 @@
+.send-sms-form {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .recipient-input, .message-input {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .recipient-input::placeholder, .message-input::placeholder {
+    color: #ccc;
+  }
+  
+  .send-sms-button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-sms-button:hover {
+    background-color: white;
+  }
+  
+  .rotate-on-click {
+    transition: transform 0.3s ease;
+  }
+  
+  .rotate-on-click.clicked {
+    transform: rotate(360deg);
+  }
+  
+  .success-message {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
